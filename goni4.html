@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dentists Management</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #e6f2ff;
+        }
+
+        /* Header */
+        .header {
+            background-color: white;
+            border-bottom: 2px solid #5dade2;
+            padding: 15px 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .title {
+            color: #5dade2;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .add-btn {
+            background-color: #5dade2;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .add-btn:hover {
+            background-color: #3498db;
+        }
+
+        /* Main container */
+        .container {
+            width: 90%;
+            margin: 30px auto;
+        }
+
+        /* One main div */
+        .dentists-box {
+            background-color: white;
+            border: 2px solid #5dade2;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        /* Each person (stacked vertically) */
+        .person {
+            border: 1px solid #5dade2;
+            border-radius: 6px;
+            padding: 12px;
+            margin-bottom: 15px;
+            color: #2e86c1;
+        }
+
+        .label {
+            font-weight: bold;
+            color: #3498db;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <div class="title">Dentists Management</div>
+        <button class="add-btn">Add Dentist</button>
+    </div>
+
+    <!-- Content -->
+    <div class="container">
+
+        <div class="dentists-box">
+
+            <div class="person">
+                <div><span class="label">Name:</span> Agon </div>
+                <div><span class="label">Surname:</span> Rramanaj</div>
+                <div><span class="label">Specialization:</span> Student of Digital School of Prizren  </div>
+                <div><span class="label">Sickness:</span> Teeth Alignment</div>
+            </div>
+
+            <div class="person">
+                <div><span class="label">Name:</span> Edin </div>
+                <div><span class="label">Surname:</span> Grazhda</div>
+                <div><span class="label">Specialization:</span> Programmer and Teacher of Digital School of Prizren  </div>
+                <div><span class="label">Sickness:</span> Root Canal</div>
+            </div>
+
+            <div class="person">
+                <div><span class="label">Name:</span> Valart </div>
+                <div><span class="label">Surname:</span> Krasniqi</div>
+                <div><span class="label">Specialization:</span> Programmer and Teacher of Digital School of Prizren</div>
+                <div><span class="label">Sickness:</span> Tooth Decay</div>
+            </div>
+
+            <div class="person">
+                <div><span class="label">Name:</span> Fation</div>
+                <div><span class="label">Surname:</span> Krasniqi</div>
+                <div><span class="label">Specialization:</span> Programmer and Teacher of Digital School of Prizren</div>
+                <div><span class="label">Sickness:</span> Wisdom Tooth</div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
