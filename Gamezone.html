@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goni's Battle Zone - Gaming Center</title>
+    <link rel="stylesheet" href="Gamezone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Butoni Back to Top   -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Navbari -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#home" class="logo">
+                <i class="fas fa-gamepad"></i>
+                <span>Goni's Battle Zone</span>
+            </a>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Pjesa e Hyrjes -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">Ultimate Gaming Experience</div>
+            <h1>Game <span class="highlight"> Hard</span> Win<span class="highlight2"> Bigger</span></h1>
+            <p>Experience next-level gaming at Game Zone with state-of-the-art consoles, PCs, and VIP Rooms.</p>
+            <div class="hero-buttons">
+                <a href="#booking" class="btn btn-primary">
+                    <i class="fas fa-calendar-check"></i> Book Now
+                </a>
+                <a href="#games" class="btn btn-secondary">
+                    <i class="fas fa-play"></i> Explore Games
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="4">4</span>
+                    <span class="stat-label">Gaming Stations</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="1000">0</span>
+                    <span class="stat-label">Happy Gamers</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="12">0</span>
+                    <span class="stat-label">Hours Open</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#games">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Pjesa e Lojrave -->
+    <section id="games" class="games">
+        <div class="container">
+            <h2 class="section-title">Our Gaming <span class="highlight">Stations</span></h2>
+            <p class="section-subtitle">Choose your platform and dive into the ultimate gaming experience</p>
+            <div class="games-grid">
+                
+                    <div class="game-card">
+                    <div class="game-image">
+                        <img src="https://m.media-amazon.com/images/I/6101Kxr2fXL._SL1500_.jpg" alt="PlayStation 5 Pro">
+                        <div class="game-overlay">
+                            <a href="playstation.html" class="btn-book">About Playstation 5 Pro</a>
+                        </div>
+                    </div>
+                    <div class="game-content">
+                        <h3>PlayStation 5 Pro</h3>
+                        <p>Play the newest games on the PlayStation 5 Pro with powerful performance,
+                             fast loading times, and amazing graphics for a smooth and exciting gaming experience.</p>
+                        <div class="game-features">
+                            <span><i class="fas fa-gamepad"></i> Dualsense Wireless Controller</span>
+                            <span><i class="fas fa-tachometer-alt"></i> 120 FPS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="game-card">
+                    <div class="game-image">
+                        <img src="https://wallpapers.com/images/hd/gaming-pc-setup-3264-x-2448-wallpaper-vfrgcqrerlhtf1io.jpg" alt="Gaming PC">
+                        <div class="game-overlay">
+                            <a href="gaming-pc.html" class="btn-book">About Gaming PC</a>
+                        </div>
+                    </div>
+                    <div class="game-content">
+                        <h3>Gaming PCs</h3>
+                        <p>High-end RTX gaming PCs with the latest graphics cards and ultra-low latency.</p>
+                        <div class="game-features">
+                            <span><i class="fas fa-microchip"></i> RTX 4090</span>
+                            <span><i class="fas fa-bolt"></i> 360Hz</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-card">
+                    <div class="game-image">
+                        <img src="https://images.openai.com/static-rsc-4/pmMeR3_amsWG2TZgRZav-gZZUdlkjpdu7TepflXND1399WxX4WAgoPV0C-pL5UtD-grJC5kecWG8k9JH8qqTij-yEupRX1054E_zbcEk5SL0ptF5buWhb8de6USqV-2U2mKu7hLCnEm7Yw-mCkhD_cW5W_LLeV_Su1ikq8d5ZbSBAwhBgTlyl6zKp_1vPPQA?purpose=fullsize" alt="VIP room">
+                        <div class="game-overlay">
+                            <a href="gamezone-vip.html" class="btn-book">About VIP Room</a>
+                        </div>
+                    </div>
+                    <div class="game-content">
+                        <h3>VIP Room</h3>
+                        <p>Exclusive gaming experience with premium amenities and personalized service.</p>
+                        <div class="game-features">
+                            <span><i class="fas fa-computer"></i> High-end Gaming PC</span>
+                            <span><i class="fas fa-pizza-slice"></i>Food and Drinks</span>
+                            <span><i class="fas fa-tv"></i>Large 4K TV</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-card">
+                    <div class="game-image">
+                        <img src="https://i1.wp.com/www.techdigest.tv/wp-content/uploads/2014/07/ps4-with-camera.jpeg.jpg?fit=640%2C360&ssl=1" alt="Playstation 4">
+                        <div class="game-overlay">
+                            <a href="ps4.html" class="btn-book">About PlayStation 4</a>
+                        </div>
+                    </div>
+                    <div class="game-content">
+                        <h3>Playstation 4</h3>
+                        <p>Enjoy smooth gaming on the PlayStation 4 with popular games 
+                            Play with friends using multiple controllers on a big screen for the best gaming experience.</p>
+                        <div class="game-features">
+                            <span><i class="fas fa-gamepad"></i> DualShock 4 Controller</span>
+                            <span><i class="fas fa-tachometer-alt"></i> 30/60 FPS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pjesa e Qmimit -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Gaming <span class="highlight">Packages</span></h2>
+            <p class="section-subtitle">Flexible pricing for every type of gamer</p>
+            <div class="pricing-grid">
+                <div class="pricing-card" id="d10">
+                    <div class="pricing-header">
+                        <div class="pricing-icon">
+                           <i class="fas fa-tv"></i>
+                        </div>
+                        <h3>Normal Gamer</h3>
+                        <div class="price">
+                            <span class="currency">€</span>
+                            <span class="amount">1</span>
+                            <span class="period">/hour</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Gaming PC stations</li>
+                        <li><i class="fas fa-check"></i> PlayStation 4 or PlayStation 5 stations</li>
+                        <li><i class="fas fa-check"></i> Headsets, keyboard, and mouse</li>
+                        <li><i class="fas fa-check"></i> Standard gaming monitors or TVs</li>
+                        <li><i class="fas fa-check"></i> High-speed internet</li>
+                        <li><i class="fas fa-check"></i> Snacks and drinks area</li>
+                        <li class="disabled"><i class="fas fa-times"></i> VIP Private Room</li>
+                        <li class="disabled"><i class="fas fa-times"></i> High-End Gaming PCs</li>
+                    </ul>
+                    <a href="#booking" class="btn btn-pricing">Book Now</a>
+                </div>
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Most Popular On Summer</div>
+                    <div class="pricing-header">
+                        <div class="pricing-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3>VIP Gamer</h3>
+                        <div class="price">
+                            <span class="currency">€</span>
+                            <span class="amount">2,50</span>
+                            <span class="period">/hour</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Private VIP gaming room</li>
+                        <li><i class="fas fa-check"></i> High-end gaming PCs</li>
+                        <li><i class="fas fa-check"></i> PlayStation 5 Pro or premium consoles</li>
+                        <li><i class="fas fa-check"></i> Bigger screens or high-refresh-rate monitors</li>
+                        <li><i class="fas fa-check"></i> Premium headsets and accessories</li>
+                        <li><i class="fas fa-check"></i> Snacks and drinks service inside the room</li>
+                        <li><i class="fas fa-check"></i> Space for playing with friends privately</li>
+                        <li><i class="fas fa-check"></i> RGB lighting and better setup</li>
+                    </ul>
+                    <a href="#booking" class="btn btn-pricing">Book Now</a>
+                </div>   
+            </div>
+        </div>
+    </section>
+
+    <!-- Pjesa e Rezervimit -->
+    <section id="booking" class="booking">
+        <div class="container">
+            <h2 class="section-title">Reserve Your <span class="highlight">Station</span></h2>
+            <p class="section-subtitle">Book your gaming session in advance</p>
+            <div class="booking-content">
+                <form class="booking-form" id="bookingForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone" required>
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="form-group">
+                            <select id="station" name="station" required>
+                                <option value="">Select station</option>
+                                <option value="ps5">PlayStation 5 Pro</option>
+                                <option value="pc">Gaming PC</option>
+                                <option value="vr">VIP Room</option>
+                                <option value="racing">Playstation 4</option>
+                            </select>
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="date" id="date" name="date" required>
+                            <i class="fas fa-calendar"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="time" id="time" name="time" required>
+                            <i class="fas fa-clock"></i>
+                        </div>
+                    </div>
+                    <div class="form-group full-width">
+                        
+                        <select id="hours" name="hours" required>
+                            <option value="">Select hours</option>
+                            <option value="1">1 Hour</option>
+                            <option value="2">2 Hours</option>
+                            <option value="3">3 Hours</option>
+                            <option value="4">4 Hours</option>
+                            <option value="5">5 Hours</option>
+                            <option value="6">6+ Hours</option>
+                        </select>
+                        <i class="fas fa-hourglass-half"></i>
+                    </div>
+                    <div class="form-group full-width">
+                        
+                        <textarea id="message" name="message" placeholder="Any special requests or requirements..."></textarea>
+                        <i class="fas fa-comment"></i>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Confirm Booking
+                    </button>
+                </form>
+                <div class="booking-info">
+                    <h3>Why Book With Us?</h3>
+                    <ul class="info-list">
+                        <li>
+                            <i class="fa-brands fa-weixin"></i>
+                            <div>
+                                <h4>Instant Confirmation</h4>
+                                <p>Get immediate booking confirmation via email</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Flexible Scheduling</h4>
+                                <p>Cancel or reschedule up to 2 hours before</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-gift"></i>
+                            <div>
+                                <h4>Rewards Program</h4>
+                                <p>Earn points with every booking</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-headset"></i>
+                            <div>
+                                <h4>24/7 Support</h4>
+                                <p>We're here to help anytime</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pjesa e Fotove -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Gaming <span class="highlight">Gallery</span></h2>
+            <p class="section-subtitle">Take a peek at our gaming paradise</p>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-src="https://images.openai.com/static-rsc-4/SiAwL5cE_r4DfCy-R4crsBRjfcQY_zPvNAutnPpD6Hp8hHzCKIX_TgtAVg2wSrOO0_5eD8-7m1-IfpR12qqxGFRrCfkYvcmXkAJb62wCChGLg9li26OFyL7nFSArTi54BeZG-O_EMiBiMsIinEcn86l66xIC01Ei8glj6RgOLwGPb8ynazxizyTCs57HrjoZ?purpose=fullsize">
+                    <img src="https://images.openai.com/static-rsc-4/SiAwL5cE_r4DfCy-R4crsBRjfcQY_zPvNAutnPpD6Hp8hHzCKIX_TgtAVg2wSrOO0_5eD8-7m1-IfpR12qqxGFRrCfkYvcmXkAJb62wCChGLg9li26OFyL7nFSArTi54BeZG-O_EMiBiMsIinEcn86l66xIC01Ei8glj6RgOLwGPb8ynazxizyTCs57HrjoZ?purpose=fullsize" alt="Gaming Arena">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-src="https://images.openai.com/static-rsc-4/gZrngAudfdqqyV_wZYNnimcmcz74eLkMEQLm9_1QANYK8hMX9aTg_WRza1dxOzwD-2h-8HvbggLMDXxO2_FQySH_th9ZhZupyoi6L2cJOWjzwj1bRDeqHgmlE1I4qC-zq16gCkSvkd-c3W6PchqD-76aVryOxzwDc8vTCRMTrsXbVjmy19THuwslqSRxnCu7?purpose=fullsize">
+                    <img src="https://images.openai.com/static-rsc-4/gZrngAudfdqqyV_wZYNnimcmcz74eLkMEQLm9_1QANYK8hMX9aTg_WRza1dxOzwD-2h-8HvbggLMDXxO2_FQySH_th9ZhZupyoi6L2cJOWjzwj1bRDeqHgmlE1I4qC-zq16gCkSvkd-c3W6PchqD-76aVryOxzwDc8vTCRMTrsXbVjmy19THuwslqSRxnCu7?purpose=fullsize" alt="Gaming Setup">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-src="https://i.pinimg.com/originals/a3/b0/0f/a3b00f061eda11022beeb7952102bd9a.jpg">
+                    <img src="https://i.pinimg.com/originals/a3/b0/0f/a3b00f061eda11022beeb7952102bd9a.jpg" alt="VR Gaming">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-src="https://images.openai.com/static-rsc-4/tnvFQUWD5Ig9OfYs9wSPU3_-tiWl5h7LIT52phePcLDpRfyojeNyDwnD53TMvS435zNbGffNdafr8DqJQFZwmkR9_hUxnrc-SAIAQgIS79UX5rZCkTTFg-a-bKQKrzty94l-WjKjQlcrs81s870s3BU2BbaQ-r_kqvNPsNfpr06jnYTweneaou1cTALOx-eu?purpose=fullsize">
+                    <img src="https://images.openai.com/static-rsc-4/tnvFQUWD5Ig9OfYs9wSPU3_-tiWl5h7LIT52phePcLDpRfyojeNyDwnD53TMvS435zNbGffNdafr8DqJQFZwmkR9_hUxnrc-SAIAQgIS79UX5rZCkTTFg-a-bKQKrzty94l-WjKjQlcrs81s870s3BU2BbaQ-r_kqvNPsNfpr06jnYTweneaou1cTALOx-eu?purpose=fullsize" alt="Console Gaming">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-src="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=800">
+                    <img src="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=400" alt="Racing Game">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-src="https://preview.redd.it/gitu78yhwfz51.jpg?width=640&crop=smart&auto=webp&s=c30e866d91357b2ad7de324c723c67db0ab8240b">
+                    <img src="https://preview.redd.it/gitu78yhwfz51.jpg?width=640&crop=smart&auto=webp&s=c30e866d91357b2ad7de324c723c67db0ab8240b" alt="Esports Arena">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <button class="lightbox-nav prev" id="lightboxPrev"><i class="fas fa-chevron-left"></i></button>
+        <button class="lightbox-nav next" id="lightboxNext"><i class="fas fa-chevron-right"></i></button>
+        <img src="" alt="Gallery Image" id="lightboxImg">
+    </div>
+
+    <!-- Pjesa e Kontaktit -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            <p class="section-subtitle">Have questions? We'd love to hear from you</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>E851,Grazhdanik 20520</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+383 49 123 456</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>gonibattlezone@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>24/7 - Always Open</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="contactName" name="name" placeholder=" " required>
+                        <label for="contactName">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="contactEmail" name="email" placeholder=" " required>
+                        <label for="contactEmail">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="contactSubject" name="subject" placeholder=" " required>
+                        <label for="contactSubject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="contactMessage" name="message" placeholder=" " required></textarea>
+                        <label for="contactMessage">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        <i class="fas fa-gamepad"></i>
+                        <span>Goni's Battle Zone</span>
+                    </a>
+                    <p>The ultimate gaming destination for enthusiasts and professionals alike.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#games">Games</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#booking">Booking</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Goni's Battle Zone. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+     emailjs.init({
+      publicKey: 'u8qZZyq9ICcm3zgcq',
+    });</script>
+    
+    <script src="Gamezone.js"></script>
+</body>
+</html>
